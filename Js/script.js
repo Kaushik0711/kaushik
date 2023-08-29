@@ -17,6 +17,7 @@ Shery.makeMagnet(".magnet");
 Shery.hoverWithMediaCircle(".hrv", {
   videos: ["./Videos/2.mp4", "./Videos/1.mp4"],
 });
+Shery.imageMasker(".animate");
 
 function loco() {
   gsap.registerPlugin(ScrollTrigger);
